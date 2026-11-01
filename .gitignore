@@ -1,0 +1,23 @@
+# Environment files & credentials (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Personal documents, CVs, and contact lists
+*.pdf
+*.csv
+*.txt
+
+# Logs & temporary files
+*.log
+.DS_Store
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor settings
+.vscode/
+.idea/
